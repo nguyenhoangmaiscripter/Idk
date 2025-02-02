@@ -1,0 +1,658 @@
+-- vn piece
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Seven7-lua/Roblox/refs/heads/main/Librarys/Orion/Orion.lua')))()
+local Window = OrionLib:MakeWindow({Name = "Flandre Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "nĂ y báº£n free nĂªn cĂ³ v thĂ´i,Ä‘Ă²i há»i = cho script cook"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+local Section = Tab:AddSection({
+	Name = "kill aurađŸ‘‡"
+})
+
+Tab:AddButton({
+	Name = "báº­t kill aura(Ă¡p dá»¥ng vá»›i sea2 vĂ  raid)",
+	Callback = function()
+getgenv().G = true
+getgenv().Creator = 'https://discord.gg/B3HqPPzFYr - HalloweenGaster'
+while getgenv().G and getgenv().Creator == 'https://discord.gg/B3HqPPzFYr - HalloweenGaster' do
+wait(0.9)
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 112412400000)
+sethiddenproperty(game.Players.LocalPlayer, "MaxSimulationRadius", 112412400000)
+for i,d in pairs(game.Workspace:GetDescendants()) do
+    if d.ClassName == 'Humanoid' and d.Parent.Name ~= game.Players.LocalPlayer.Name then
+        d.Health = 0
+    end
+end
+end
+      		print("button pressed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "get armor 200m - 90bđŸ‘‡(cáº§n nhiá»u ng trong sv)"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "copy all armor",
+	Callback = function()
+local Players = game:GetService("Players")
+local armors = {"Cursed-Armor", "Unique-Armor", "Darkness-Armor", "Thunder-Armor", "Thunder-Armor", "Diamond-Armor", "Golden-Armor", "Epic-Armor", "Iron-Armor", "Wooden-Armor"} -- Danh sĂ¡ch cĂ¡c loáº¡i giĂ¡p
+
+for _, player in pairs(Players:GetPlayers()) do
+    local backpack = player:FindFirstChild("Backpack")
+    if backpack then
+        for _, armorName in pairs(armors) do
+            local armor = backpack:FindFirstChild(armorName)
+            if armor and armor:FindFirstChild("K") and armor.K:FindFirstChild("Fire") then
+                armor.K.Fire:FireServer()
+            end
+        end
+    end
+end
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+local Section = Tab:AddSection({
+	Name = "fast attackđŸ‘‡"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "cid",
+	Callback = function()
+local args = {
+    [1] = 8,
+    [2] = 1
+}
+
+-- Láº·p liĂªn tá»¥c vá»›i khoáº£ng thá»i gian giá»¯a má»—i láº§n thá»±c thi
+while true do
+    game:GetService("Players").LocalPlayer.PlayerGui.Tengen.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+    wait(0) -- Äiá»u chá»‰nh thá»i gian chá» theo nhu cáº§u
+end
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "geto",
+	Callback = function()
+local args = {
+    [1] = 8,
+    [2] = 1
+}
+
+-- Láº·p liĂªn tá»¥c vá»›i khoáº£ng thá»i gian giá»¯a má»—i láº§n thá»±c thi
+while true do
+    game:GetService("Players").LocalPlayer.PlayerGui.Tengen.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+    wait(0) -- Äiá»u chá»‰nh thá»i gian chá» theo nhu cáº§u
+end
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "escanor",
+	Callback = function()
+local args = {
+    [1] = 8,
+    [2] = 1
+}
+
+-- VĂ²ng láº·p thá»±c hiá»‡n liĂªn tá»¥c
+while true do
+    game:GetService("Players").LocalPlayer.PlayerGui.Zabuza.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+    wait(0) -- Äiá»u chá»‰nh thá»i gian chá» theo nhu cáº§u
+end
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "guts",
+	Callback = function()
+local args = {
+    [1] = 8,
+    [2] = 1
+}
+
+-- VĂ²ng láº·p thá»±c hiá»‡n liĂªn tá»¥c
+while true do
+    game:GetService("Players").LocalPlayer.PlayerGui.Zabuza.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+    wait(0) -- Äiá»u chá»‰nh thá»i gian chá» theo nhu cáº§u
+end
+
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "yoru v3",
+	Callback = function()local args = {
+    [1] = 8,
+    [2] = 3
+}
+
+-- Láº·p liĂªn tá»¥c vá»›i khoáº£ng thá»i gian giá»¯a má»—i láº§n thá»±c thi
+while true do
+    game:GetService("Players").LocalPlayer.PlayerGui.YoruV3.Skill1b.Z.TextButtonm1.Hitbox:FireServer(unpack(args))
+    wait(0) -- Äiá»u chá»‰nh thá»i gian chá» theo nhu cáº§u
+end
+
+print("button pressed")
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "secret fruit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "báº¥m vĂ o Ä‘á»ƒ auto quayđŸ‘‡"
+})
+Tab:AddButton({
+	Name = "quay secret",
+	Callback = function()
+local UserInputService = game:GetService("UserInputService")
+local running = true
+
+-- Cháº¡y trong má»™t luá»“ng riĂªng
+task.spawn(function()
+    while running do
+        fireclickdetector(game:GetService("Workspace").MAP["STARTER ISLAND [ Lv 1+ ]"]["Secret Random"].RANDOM)
+        wait(0) -- ThĂªm thá»i gian chá» Ä‘á»ƒ giáº£m táº£i
+    end
+end)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "quay secret(sea2)",
+	Callback = function()
+local UserInputService = game:GetService("UserInputService")
+local running = true
+
+task.spawn(function()
+    while running do
+        -- Kiá»ƒm tra sá»± tá»“n táº¡i cá»§a cĂ¡c Ä‘á»‘i tÆ°á»£ng trÆ°á»›c khi gá»i fireclickdetector
+        local workspace = game:GetService("Workspace")
+        local marineIsland = workspace:FindFirstChild("Marine Island [ 3000 - 5000 ]")
+        local secretRandom = marineIsland and marineIsland:FindFirstChild("Secret Random")
+        local randomObject = secretRandom and secretRandom:FindFirstChild("RANDOM")
+
+        if randomObject then
+            fireclickdetector(randomObject)
+        else
+            warn("KhĂ´ng tĂ¬m tháº¥y Ä‘á»‘i tÆ°á»£ng RANDOM!")
+        end
+
+        task.wait(0) -- Äiá»u chá»‰nh thá»i gian chá» Ä‘á»ƒ giáº£m táº£i há»‡ thá»‘ng
+    end
+end)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "quay yoru",
+	Callback = function()
+local UserInputService = game:GetService("UserInputService")
+local running = true
+
+task.spawn(function()
+    while running do
+        -- Kiá»ƒm tra tá»“n táº¡i cá»§a ClickDetector trÆ°á»›c khi thá»±c hiá»‡n
+        local clickDetector = game.Workspace:FindFirstChild("MAP")
+            and game.Workspace.MAP:FindFirstChild("DAK ISLAND [Lv 1350+]")
+            and game.Workspace.MAP["DAK ISLAND [Lv 1350+]"]:FindFirstChild("Yoru V3 random")
+            and game.Workspace.MAP["DAK ISLAND [Lv 1350+]"]["Yoru V3 random"]:FindFirstChild("ClickDetector")
+
+        if clickDetector then
+            fireclickdetector(clickDetector)
+        else
+            warn("KhĂ´ng tĂ¬m tháº¥y ClickDetector!")
+        end
+
+        task.wait(0) -- Äiá»u chá»‰nh thá»i gian chá» Ä‘á»ƒ giáº£m táº£i há»‡ thá»‘ng
+    end
+end)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "quay wando(sea2)",
+	Callback = function()
+local UserInputService = game:GetService("UserInputService")
+local running = true
+
+task.spawn(function()
+    while running do
+        -- Kiá»ƒm tra tá»“n táº¡i cá»§a ClickDetector trÆ°á»›c khi thá»±c hiá»‡n
+        local clickDetector = game.Workspace:FindFirstChild("Platinum Town [ 2000 - 3000 ]")
+            and game.Workspace["Platinum Town [ 2000 - 3000 ]"]:FindFirstChild("PlatinumMAP")
+            and game.Workspace["Platinum Town [ 2000 - 3000 ]"].PlatinumMAP:FindFirstChild("GodBox")
+            and game.Workspace["Platinum Town [ 2000 - 3000 ]"].PlatinumMAP.GodBox:FindFirstChild("ClickDetector")
+
+        if clickDetector then
+            fireclickdetector(clickDetector)
+        else
+            warn("KhĂ´ng tĂ¬m tháº¥y ClickDetector!")
+        end
+
+        task.wait(0) -- Äiá»u chá»‰nh thá»i gian chá» Ä‘á»ƒ giáº£m táº£i há»‡ thá»‘ng
+    end
+end)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "quest",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "pháº£i báº¥m vĂ o npc nháº­n nv rá»“i báº¥m quest 1,náº¿u ko Ä‘Æ°á»£c thĂ¬ 2 vĂ  3"
+})
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "quest 1",
+	Callback = function()
+-- Script 3: Quest Accept 1
+while wait() do
+    game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept1.RemoteEvent:FireServer()
+end
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "quest 2",
+	Callback = function()
+-- Script 2: Quest Accept 2
+while wait() do
+    game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept2.RemoteEvent:FireServer()
+end
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "quest 3",
+	Callback = function()
+-- Script 1: Quest Accept 3
+while wait() do
+    game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept3.RemoteEvent:FireServer()
+end
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "báº¥m vĂ o Ä‘á»ƒ dá»‹ch chuyá»ƒn"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o khá»Ÿi Ä‘áº§u",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(485.583771, 35.5632935, -511.945404)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o tuyáº¿t",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-915.918945, 33.7605095, 282.443604)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o cĂ¡t",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-708.765259, 69.1108398, 1745.13916)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o trá»i",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4594.52393, 4279.44092, 474.423523)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "thá»‹ tráº¥n end",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2223.75146, 36.3414612, 1965.90369)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o minh mama",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2569.90283, 51.1074524, -65.4458542)
+
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o dark",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3465.68188, 66.2542191, 3718.19531)
+
+      		print("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Sea 2đŸ‘‡"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o kaido",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-685, 87690, 789)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o platium",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1258, 87700, 3260)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o marine",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-160, 87750, -2010)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o nickbeo",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1600, 87700, 637)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o garou",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1600, 87700, 1073)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o sukuna",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1500, 87700, 2800)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o grab",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2040, 87700, 50)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o cid vĂ  geto",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1635, 87710, -1085)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Ä‘áº£o sun",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1603, 87700, -2191)
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "script Ä‘Æ°á»£c lĂ m bá»Ÿi:thaylam5A1 youtube:Flandre Hub"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "Toggleui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BackgroundTransparency = 0.5
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 50, 0, 50)
+Toggle.Draggable = true
+
+local Corner = Instance.new("UICorner")
+Corner.CornerRadius = UDim.new(0.2, 0)
+Corner.Parent = Toggle
+
+local Image = Instance.new("ImageLabel")
+Image.Name = "Icon"
+Image.Parent = Toggle
+Image.Size = UDim2.new(1, 0, 1, 0)
+Image.BackgroundTransparency = 1
+Image.Image = "rbxassetid://129480702328610" 
+
+local Corner2 = Instance.new("UICorner")
+Corner2.CornerRadius = UDim.new(0.2, 0)
+Corner2.Parent = Image
+
+Toggle.MouseButton1Click:Connect(function()
+  OrionLib:ToggleUi()
+end)
