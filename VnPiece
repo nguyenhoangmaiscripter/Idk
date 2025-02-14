@@ -53,6 +53,17 @@ dropsVN:Button("inf yield", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+dropsVN:Button("simple spy", function()
+--[[
+    WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/SimpleSpy/refs/heads/main/Mobile.lua"))()
+end)
+
+drops:Button("turtle spy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Brand/Turtle-Spy/main/source.lua", true))()
+end)
+
 local dropsArmors = serv2:Channel("armors")
 dropsArmors:Button("copy all armor of sv", function()
     local Players = game:GetService("Players")
